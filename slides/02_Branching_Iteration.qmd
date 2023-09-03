@@ -1,0 +1,643 @@
+---
+title: "HSS 611 - Week 2: Branching & Iteration"
+date: September 4, 2023
+format: 
+  beamer:
+    theme: Pittsburgh 
+jupyter: python3
+execute:
+  echo: true 
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+## Agenda
+
+-   Strings
+
+-   Comparison operators
+
+-   Iteration and loops: `for` and `while`
+
+-   Indentation
+
+-   Control flow: `if`, `elif`, `else`
+
+
+## `string` data type
+
+-   Text, letter, character, space, digits (numeric characters), etc.
+
+-   Create with single or double quotes (but every instance needs to be
+    consistent in itself)
+
+```{python}
+greeting = "Hello! How are you" # double quotes
+who = 'Anastasia' # single quotes
+key_str = '1111' # this is not an integer
+key_integer = 1111 # this is an integer
+```
+
+
+## `string` data type
+
+-   Concatenate with `+`
+
+```{python}
+print(greeting + ' ' + who + '?')
+print('The passcode is ' + key_str)
+print('The passcode is ' + str(key_integer)) # str() transforms 
+```
+
+
+## `string` data type
+
+-   Even, do this:
+
+```{python}
+(who + '! ') * 3
+```
+
+
+## `string` data type
+
+-   Strings can also be created with `'''` or `"""`
+
+-   Triple quotes can handle multi-line strings as well
+
+```{python}
+my_string = '''
+This is a string. It is spanning 
+multiple lines.
+'''
+print(my_string)
+```
+
+
+## `string` data type
+
+```{python}
+my_other_string = """I could do this too."""
+print(my_other_string)
+```
+
+
+## `string` data type
+
+-   Tip: to create a string with double quotes in it, create it with
+    single quotes (and vice versa)
+
+```{python}
+convo_1 = '"Which is worse, ignorance or apathy?"'
+print(convo_1)
+convo_2 = "'Which is worse, ignorance or apathy?'"
+print(convo_2)
+```
+
+
+## `string` data type
+
+-   If you need both, `'''` can be used
+
+```{python}
+convo_3 = '''"What's the matter?"'''
+print(convo_3)
+```
+
+
+## `print()` : Print to output cells (or consoles)
+
+-   print() can print strings and other things together using commas
+
+```{python}
+n_apples = 3 # n_apples is an integer
+print('I ate', n_apples, 'apples.') # note the white spaces
+```
+
+-   Or we could combine them to a string first (but n_apples will have
+    to be converted to a string)
+
+```{python}
+print('I ate ' + str(n_apples) + ' apples.')
+```
+
+````{=html}
+<!--
+## `input("")` : Get input from user
+
+-   Whatever is in the quotes shown to user
+
+-   Users enter their input / response
+
+-   Binds value to a variable
+
+```{python}
+#| eval: false
+text = input("Tell me something...")
+print("So you're saying", text)
+```
+-   input will give you a **string**, so convert to number as needed
+
+```{python}
+#| eval: false
+birth_year = input("Type in your age:") 
+print('You are ' + str(2023 - int(birth_year)) + ' years old.')
+```
+-->
+````
+
+## Comparison Operators
+
+-   Used to compare to variables to one another
+
+-   Note the signs `<` or `>` precede `=`
+
+-   These evaluate to a Boolean:
+
+```         
+var1 > var2
+var1 >= var2
+var1 < var2
+var1 <= var2
+var1 == var2
+var1 != var2
+```
+
+## Comparison Operators
+
+-   This is widely useful, including
+
+    -   Control flow (we will see this in a bit)
+    -   And many many more
+
+
+## Logical Operators on Booleans
+
+-   **`not`**, **`or`**, **`and`**
+
+-   **`not a`** -\> True if **a** is False; False if **a** is True
+
+-   **`a or b`** -\> True if at least one of **a** or **b** is True
+
+-   **`a and b`** -\> True if both are True
+
+
+## Examples
+
+```{python}
+x = 5
+y = 10
+result = x < 10 and y > 5
+print(result)
+```
+
+
+## Examples
+
+```{python}
+x = 5
+y = 2
+result = x < 10 or y > 5  # True because x < 10 is true
+print(result)
+```
+
+
+## Examples
+
+```{python}
+x = False
+result = not x  # True because x is False
+```
+
+
+## Control Flow: Branching
+
+-   **`if`** is used to evaluate **if** a condition is **True**
+
+```         
+if <condition>:
+    <this is ran if condition is True>
+    <this is ran if condition is True>
+```
+
+
+## Note on Indentation
+
+-   Be careful and meticulous when you indent multiple times (and
+    multiple levels)
+
+```         
+if <condition>:
+    <this is ran if condition is True>
+    <this is ran if condition is True>
+    
+<this does not depend on condition>
+```
+
+\vspace{0.5cm}
+
+-   The expressions should (by convention) be indented by 4 spaces or a
+    Tab
+-   That's how Python understands that those are the expressions to be
+    run if the condition is True
+
+
+## Note on Indentation
+
+Best practices to avoid headaches:
+
+-   Either always use Tabs or always spaces
+
+-   Python community mostly uses 4 spaces
+
+-   Many IDEs will allow you to automatically convert Tabs to 4 spaces
+
+-   Applicable not only to branching but also to: `for`, `while`,
+    `with`, `def`, `class`, `try`, `except`, etc.
+
+\vspace{0.5cm}
+
+For more discussion see
+[here](https://stackoverflow.com/questions/1125653/python-using-4-spaces-for-indentation-why).
+
+
+## Control Flow: Branching
+
+-   We can also use `else` with `if`
+
+-   Run `a` if condition is True, otherwise run `b`
+
+```         
+if <condition>:
+    <a>
+else:
+    <b>
+```
+
+
+## Example
+
+```{python}
+number = 12
+
+if number % 2 == 0:
+    print("Number is even.")
+else:
+    print("Number is odd.")
+```
+
+
+## Control Flow: Branching
+
+-   `elif` stands for 'else if'
+-   If condition1 is True, run `a`
+-   If condition1 is False but condition2 is True, run `b`
+
+```         
+if <condition1>:
+    <a>
+elif <condition2>:
+    <b>
+elif <condition3>:
+    <c>
+    .
+    .
+else:
+    <z>
+```
+
+
+## Control Flow: Branching
+
+-   Note that, in this setting, last code is only run only if
+    everything above is False
+    
+-   E.g. `c` will not be run if condition1 and
+    condition2 are not **both** False
+
+```         
+if <condition1>:
+    <a>
+elif <condition2>:
+    <b>
+elif <condition3>:
+    <c>
+    .
+    .
+else:
+    <z>
+```
+
+
+## Example
+
+```{python}
+number = 7
+
+if number > 0:
+    print("Positive number")
+elif number == 0:
+    print('Zero')
+else:
+    print('Negative number')
+```
+
+
+## Further Note on Indentation
+
+-   Many nested indentations are normal and common
+
+-   Note how indentation determines which `else` belongs to which `if`
+
+-   What will this return?
+
+```{python}
+#| eval: false
+number = 12
+if number % 2 == 0:
+    print("Number is even.")
+    if number % 3 == 0:
+        print("Number is divisible by 3.")
+    else:
+        print("Number is not divisible by 3.")
+else:
+    print("Number is odd.")
+```
+
+
+## Further Note on Indentation
+
+-   Many nested indentations are normal and common
+
+-   Note how indentation determines which `else` belongs to which `if`
+
+-   What will this return?
+
+```{python}
+number = 12
+if number % 2 == 0:
+    print("Number is even.")
+    if number % 3 == 0:
+        print("Number is divisible by 3.")
+    else:
+        print("Number is not divisible by 3.")
+else:
+    print("Number is odd.")
+```
+
+
+## Further Note on Indentation
+
+-   How about this?
+
+```{python}
+#| eval: false
+number = 9
+if number % 2 == 0:
+    print("Number is even.")
+    if number % 3 == 0:
+        print("Number is divisible by 3.")
+    else:
+        print("Number is not divisible by 3.")
+else:
+    print("Number is odd.")
+```
+
+
+## Further Note on Indentation
+
+-   How about this?
+
+```{python}
+number = 9
+if number % 2 == 0:
+    print("Number is even.")
+    if number % 3 == 0:
+        print("Number is divisible by 3.")
+    else:
+        print("Number is not divisible by 3.")
+else:
+    print("Number is odd.")
+```
+
+
+## Control Flow: while Loops
+
+-   Run codes as long as a condition is True
+
+```         
+while <condition>:
+    <a>
+    <b>
+    ...
+```
+
+
+## Example
+
+```{python}
+# program to display numbers from 1 to 5
+
+# initialize the variable
+i = 1
+n = 5
+
+# while loop from i = 1 to 5
+while i <= n:
+    print(i)
+    i = i + 1
+```
+
+
+## Another Example
+
+```{python}
+# smallest number greater than 700 that is divisible by 13 
+number = 700
+while not number % 13 == 0:
+    print(number, "is not divisible by 13.")
+    number = number + 1
+print(number, "is divisible by 13.") # 702/13 = 15
+```
+
+
+## Example
+
+-   `x = x + 1` can be shortened to `x += 1`
+
+```{python}
+number = 700
+while not number % 13 == 0:
+    print(number)
+    number += 1
+print(number) 
+```
+
+
+## Control Flow: for Loops
+
+-   Useful when the number of iterations is known
+
+-   Every time through the loop, `<variable>` takes a new value
+    (iterating through `<iterable>`)
+
+```         
+for <variable> in <iterable>:
+    <a>
+    <b>
+    ...
+```
+
+
+## Control Flow: for Loops
+
+-   Iterable is oftentimes `range(<some_num>)`
+
+-   Can also be a list, tuple, string, dictionary, Pandas Seires, etc.
+
+```         
+for <variable> in range(<some_num>):
+    <expression>
+    <expression>
+```
+
+
+## range()
+
+**`range(start, stop, step)`** 
+
+-   By default, `start = 0` and `step = 1` 
+
+-   Only `stop` is required 
+
+-   It will start at 0, loop until `stop - 1`
+
+
+## Example
+
+-   If we supply one argument, it's understood as the `stop` argument
+
+```{python}
+for i in range(5):
+    print(i)
+```
+
+
+## Example
+
+```{python}
+for i in range(11, 15):
+  print(i)
+
+```
+
+
+## Example
+
+-   What will this return?
+
+```{python}
+#| eval: false
+for i in range(10, 30, 5):
+    print(i % 10)
+
+
+```
+
+## Example
+
+```{python}
+for i in range(10, 30, 5):
+  print(i % 10)
+
+```
+
+
+## Can iterate over many other things too
+
+```{python}
+for x in [2, 3, 4]:
+    print(x ** 2)
+
+```
+
+
+## Can iterate over many other things too
+
+```{python}
+for a,  b in zip('abcd', [1, 2, 3, 4]):
+    print(a, b, "!")
+```
+
+## `break` and `continue` statements
+
+-   `break` exits the loop entirely
+
+-   Remaining expressions are not evaluated
+
+```{python}
+#| eval: false
+for i in range(5):
+    if i == 3:
+        break
+    print(i)
+```
+
+
+## `break` and `continue` statements
+
+-   `continue` only skips the current iteration
+-   "Continue"s with the remaining iterations
+
+```{python}
+#| eval: false
+for i in range(5):
+    if i == 3:
+        continue
+    print(i)
+```
+
+
+## `break` and `continue` statements
+
+-   In nested loops, `break` exits only the innermost loop
+
+```{python}
+for i in range(3):
+  for j in range(3):
+    if j == 1:
+      break
+    print(i, j)
+```
+
+
+## `break` and `continue` statements
+
+-   Similarly, `continue` skips the current iteration in the innermost loop
+
+```{python}
+for i in range(3):
+  for j in range(3):
+    if j == 1:
+      continue
+    print(i, j)
+```
+
+
+## `break` and `continue` statements
+
+-   `break` and `continue` can be used in both for and while loops
+
+```{python}
+var = 5
+while var > 0:              
+    var -= 1
+    print(var)
+    if var == 3:
+        continue
+    if var == 2:
+        break
+    print('Current variable value :', var)
+print("Good bye!")
+```

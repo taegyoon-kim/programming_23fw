@@ -1,0 +1,88 @@
+policy_document_id_citing,policy_source_type_citing,published_on_year_citing,policy_source_id_citing,policy_source_title_citing,,ref_science_count_citing,policy_document_id_cited,policy_source_type_cited,published_on_year_cited,policy_source_id_cited,policy_source_title_cited,ref_science_count_cited
+gpogov-2db0a066299d214252b9d2840d798d2d,government,2019,gpogov,Government Publishing Office,,18,brookings-1628f822f895734f9eb5ca5273d788ac,think tank,2017,brookings,Brookings Institution,0
+nycgov-1fa89681c00ae6d84c9d37550dd26c2c,government,2019,nycgov,City of New York,,12,centerforamericanprogress-c5361552eefb87e109e362d5b5ba3481,think tank,2019,centerforamericanprogress,Center for American Progress,7
+committee_house-93edbe2c7a8d9172675400c36dc10038,government,2019,committee_house,House Committees,,0,rtiinternational-29b1632005d3cd43c05f3019f7889396,think tank,2018,rtiinternational,RTI International,1
+committee_house-2edd907352c3dc28db57f8c3cc5bffb8,government,2019,committee_house,House Committees,,29,nber-8897f01a1e152359f5c3478b7f974d51,think tank,2005,nber,NBER,13
+nycgov-a393304678e5f5a71bd401dc5817156c,government,2019,nycgov,City of New York,,27,nber-63bf17780c1188057a52449359ac048a,think tank,2007,nber,NBER,17
+seattlegov-1ad75c551811406d0d10ef9faed68b32,government,2019,seattlegov,City of Seattle,,14,nber-6ecf04e0d782911ba34814fdeff074c1,think tank,2006,nber,NBER,27
+committee_senate-f18014edc409210c7123544f92656b40,government,2019,committee_senate,Senate Committees,,1,nber-683b02f394fd03024b30772bc6a3665b,think tank,2017,nber,NBER,34
+committee_senate-a1648acbec4d07085940cb705d5cd087,government,2019,committee_senate,Senate Committees,,2,piie-c147c9e302cf35a877eebfe362448cca,think tank,2017,piie,Peterson Institute for International Economics,2
+nycgov-71aa7d2750d56f13f85f54ee720702d8,government,2019,nycgov,City of New York,,5,csis-5ca0450657c2fe6668c47af0a30ca3aa,think tank,2011,csis,Center for Strategic and International Studies,0
+stateofidaho-f1220956cdcec3a9f9b60496d1e2902b,government,2019,stateofidaho,State of Idaho,,12,nber-40e504825778a9204e7659635b3012dd,think tank,2014,nber,NBER,22
+committee_house-09c185d359db3328f3a8921ba1b4ae8a,government,2019,committee_house,House Committees,,3,csis-e11bfec5a021ba580a599fcef803b4f7,think tank,2011,csis,Center for Strategic and International Studies,0
+committee_house-743457b48aa9079dd1a00b754602817c,government,2019,committee_house,House Committees,,22,newamerica-953057cc421d93fe8c3d4c260aaf6174,think tank,2018,newamerica,New America,0
+nycgov-5183d04a37fea165868350477dba4e3d,government,2019,nycgov,City of New York,,462,centerforamericanprogress-9df855c86c0367d111c736f9f1080ff4,think tank,2017,centerforamericanprogress,Center for American Progress,1
+committee_house-a4f2335a5355d4fc05dd3cce39d0355c,government,2019,committee_house,House Committees,,5,kff-82881c47bb114ef78f296d737b96e384,think tank,2014,kff,Kaiser Family Foundation,0
+committee_house-853089df15fd672be57e01f91c61c53f,government,2019,committee_house,House Committees,,17,heritagefoundation-751890390f4420bf071e7355f95d697c,think tank,2009,heritagefoundation,The Heritage Foundation,0
+committee_house-3f1414f0acd934f0908a5457b0718047,government,2019,committee_house,House Committees,,15,sri-f3d36b2bc18e3c83628627d5ad45695a,think tank,2005,sri,SRI,2
+federalreserve-e4cbb52b5aa998569d78618ebab1ff17,government,2019,federalreserve,Federal Reserve,,0,hooverinstitution-26fc906a9d5f37130dae8fad9b5e965a,think tank,2020,hooverinstitution,Hoover Institution,54
+committee_house-5851a722d9e158fbc1c653bba3fa3977,government,2019,committee_house,House Committees,,12,milkeninstitute-790c78ed1594c3e397af662d57826d59,think tank,2011,milkeninstitute,Milken Institute,12
+congressionalresearch-0b0b7e6555b3e8e0ffeb36be10ab1de6,government,2019,congressionalresearch,Congressional Research Service,,28,rooseveltinstitute-ee87fe5c2f9fc1ad15975b70186e2d49,think tank,2020,rooseveltinstitute,Roosevelt Institute,7
+justicedepartment-4b429a0c7b72527e8ff39d18b3603eab,government,2019,justicedepartment,Justice Department,,3,nber-c8d8da0490fe377617461db620741743,think tank,2006,nber,NBER,15
+gpogov-fddbb6772d9cc32b9550c1d7c48618fc,government,2019,gpogov,Government Publishing Office,,1,pewresearch-ae406e0193886bd26f093dfa605e05df,think tank,2016,pewresearch,Pew Research,1
+committee_house-4dd268febd586038cc663c5c1c5d0452,government,2019,committee_house,House Committees,,0,brookings-4209c4dfbefcc633f24fc1e7fca3ec56,think tank,2015,brookings,Brookings Institution,0
+committee_house-9cbea30a520b3a1933097a7d05e207ec,government,2019,committee_house,House Committees,,37,nber-b0490e5a83958aa053575b44908227d4,think tank,2014,nber,NBER,10
+committee_house-81a9d5ffe9c3ae48cd74e7ca07bb558d,government,2019,committee_house,House Committees,,12,nber-bf0ab0853668a946888df940eabb8145,think tank,2012,nber,NBER,17
+committee_house-952b7a5da2179a934bc6c2f5e17aeac4,government,2019,committee_house,House Committees,,12,mercatus-c8100c7688f4d314024391d79308db35,think tank,2012,mercatus,Mercatus Center,11
+committee_house-fedde056e7b6bc1a559894d41033eaba,government,2019,committee_house,House Committees,,3,commonwealthfund-5b6d36b80bc3595d389ea9e7752657d0,think tank,2001,commonwealthfund,Commonwealth Fund,5
+california_state_agencies-6d807937fa3bd81eeb2b2d8186ae2ed9,government,2019,california_state_agencies,Californian State Agencies,,0,commonwealthfund-bd8105e0ad429508ebb1bacfc476d879,think tank,2017,commonwealthfund,Commonwealth Fund,0
+committee_senate-db65294a1cb0c519d452b758a524c94f,government,2019,committee_senate,Senate Committees,,0,randcorporation-98d91fc6e401c4baf4ebaccfa8e761ae,think tank,2015,randcorporation,RAND Corporation,0
+gpogov-b668cc7cbcaf665d062c5bc095f36fb8,government,2019,gpogov,Government Publishing Office,,16,nber-293d2d298b4ccf29a6879cbade983ebf,think tank,2011,nber,NBER,11
+committee_house-aa923717beff96629c475873e4aec1ca,government,2019,committee_house,House Committees,,5,brookings-a13def8049786e8889cac630b43017c4,think tank,2020,brookings,Brookings Institution,5
+congressionalresearch-485895b769eda032ed02b1542943c9fc,government,2019,congressionalresearch,Congressional Research Service,,22,commonwealthfund-48850390978cfe0c77b6f0b03b7b9cab,think tank,2006,commonwealthfund,Commonwealth Fund,19
+committee_senate-f18014edc409210c7123544f92656b40,government,2019,committee_senate,Senate Committees,,8,brookings-12700fa2bc78aa1968f43f3d42cca2be,think tank,2018,brookings,Brookings Institution,0
+stateofalaska-c55994886d1e83bbe7828d0a6cf3361f,government,2019,stateofalaska,State of Alaska,,0,wested-70d65bdd5f217efad33a9450dadcc378,think tank,2012,wested,WestEd,6
+congressionalresearch-9e78ffe4d839b0e4819706b44d0329de,government,2019,congressionalresearch,Congressional Research Service,,14,kff-71608aa772340b4ad5a83344ebf5c6ea,think tank,2019,kff,Kaiser Family Foundation,15
+committee_house-fda35d17ac8b8e96e3d544b3cfed7832,government,2019,committee_house,House Committees,,41,nber-bfbeb631f73cdf16c97068010f723089,think tank,2007,nber,NBER,34
+gpogov-2db0a066299d214252b9d2840d798d2d,government,2019,gpogov,Government Publishing Office,,0,atlanticcouncil-9e05b87237aba8923ac2436d13c116ab,think tank,2021,atlanticcouncil,Atlantic Council,0
+committee_house-e341d6f99e2a4db2c9101c2c3929b625,government,2019,committee_house,House Committees,,16,commonwealthfund-4e306d7fed1f6835f5aa013181c7491a,think tank,2002,commonwealthfund,Commonwealth Fund,7
+committee_house-f97c4ba11367f1a1f76808703bb5c81e,government,2019,committee_house,House Committees,,5,csis-f0a5425fe61d8c9ac0da734a79b68290,think tank,2016,csis,Center for Strategic and International Studies,1
+congressionalresearch-df980cae7bf45d8d9ca0c44123831ddc,government,2019,congressionalresearch,Congressional Research Service,,0,38north-3bb546818c904444551a5390297c5b24,think tank,2019,38north,38 North,0
+gpogov-b668cc7cbcaf665d062c5bc095f36fb8,government,2019,gpogov,Government Publishing Office,,0,centeronbudgetandpolicypriorities-a80a2cc1d97380ed5ceda7455a5458ca,think tank,2017,centeronbudgetandpolicypriorities,Center on Budget and Policy Priorities,0
+gpogov-6f63e1ffbc1c5f32edcb758dd3f5423c,government,2019,gpogov,Government Publishing Office,,30,economicpolicyinstitute-f4f006180139367b400387f35bed9619,think tank,2018,economicpolicyinstitute,Economic Policy Institute,1
+committee_house-953fb8561c7fef395ba0325084cba180,government,2019,committee_house,House Committees,,43,jamestownfoundation-da99a5c2a84795aa727df1d2f38441c5,think tank,2017,jamestownfoundation,Jamestown Foundation,0
+gpogov-557921df5417e4b23004acc876fc7d31,government,2020,gpogov,Government Publishing Office,,20,jamestownfoundation-0431747f5e921ae876ea3855e11f9607,think tank,2015,jamestownfoundation,Jamestown Foundation,0
+committee_house-bc2f3ed3c87c68eb97744e06319cbfda,government,2020,committee_house,House Committees,,0,publicservice-b8f62228cd0f9d45ac25409c9ee43c2d,think tank,2008,publicservice,Partnership for Public Service,0
+nycgov-e58521ec39dd9ee65ada461097e167bb,government,2020,nycgov,City of New York,,3,project2049-76eab462ebf0017f0395466b56ae364b,think tank,2012,project2049,Project 2049 Institute,2
+cityofdenver-ec3b22b20a2d5758b082f1d640a78277,government,2020,cityofdenver,City of Denver,,2,humanrightswatch-98bef32f661363781790c5c20c224d8e,think tank,2014,humanrightswatch,Human Rights Watch,0
+stateofvirginia-359d55b38b9222126b522bda4eeaa8bc,government,2020,stateofvirginia,Commonwealth of Virginia,,4,aclu-49e2e932a3c64d9809a0c61df8110e44,think tank,2010,aclu,ACLU,0
+committee_house-bc8de8ba5afaacf3415cacfb3f3e4c5a,government,2020,committee_house,House Committees,,31,nber-e43af18996f61a16cff13aeebf795ab6,think tank,2005,nber,NBER,32
+texasgov-c9df4a140ea42365cf3e31d43e0b3348,government,2020,texasgov,State of Texas,,4,centeronbudgetandpolicypriorities-832670595abd6af64b8d1169ff078b5c,think tank,2020,centeronbudgetandpolicypriorities,Center on Budget and Policy Priorities,0
+justicedepartment-c41c86cbc98e8b0927d80b2442989c39,government,2020,justicedepartment,Justice Department,,0,centeronbudgetandpolicypriorities-03bf817927c737c01bea6c95569ca196,think tank,2019,centeronbudgetandpolicypriorities,Center on Budget and Policy Priorities,2
+delawaregov-e51f4a74b9571848bfd46fdb506ba268,government,2020,delawaregov,State of Delaware,,0,csis-e2c84d23b065fa5a4e346bce8cc29e02,think tank,2020,csis,Center for Strategic and International Studies,0
+committee_house-e20384f4ec8bb9e7779eefb239b41d7c,government,2020,committee_house,House Committees,,0,pewresearch-18d2dca3362ad9bcf0f302cf44d36357,think tank,2018,pewresearch,Pew Research,0
+committee_staff_reports-9867772f214c70f4fac12db5102c5e3d,government,2020,committee_staff_reports,House Committees Staff Reports,,14,iwpr-951028cc8337424bed747cdc464009d9,think tank,2008,iwpr,Institute for Women's Policy Research,2
+gpogov-1836cf571b6cd92c7c7e50a3831eb2a5,government,2020,gpogov,Government Publishing Office,,4,nrdc-c16d11d12199595d07f3aa517ff03f51,think tank,2007,nrdc,Natural Resources Defense Council,0
+opregovus-078c7f97123705d5f1c4674d79287787,government,2020,opregovus,OPRE,,6,fpri-97c9e3f58fc9d3adcb9bfe9f67df3ff3,think tank,2016,fpri,Foreign Policy Research Institute,0
+committee_house-a3633c96b37ad1209d5f5fb44fd7666d,government,2020,committee_house,House Committees,,10,brookings-17869c99bc5fcb430d2feadaaeefde33,think tank,2007,brookings,Brookings Institution,17
+stateofnorthcarolina-597ce801666e7a8cdcd97b224eb0e292,government,2020,stateofnorthcarolina,State of North Carolina,,12,pewresearch-3977ed1cadea38d50026d1fc7d68a658,think tank,2019,pewresearch,Pew Research,0
+gpogov-211f886143891761606dffcccf760673,government,2020,gpogov,Government Publishing Office,,3,washingtoninstitute-7001c7fa993c60a6bcf03ba18c0b1f3e,think tank,2015,washingtoninstitute,The Washington Institute,8
+nygov-8bbc457e8876a4136f98db4a20f141a9,government,2020,nygov,New York State,,0,csba-529d694f78df03ef5283fd14842ccdbf,think tank,2010,csba,Center for Strategic and Budgetary Assessments,1
+congressionalresearch-02921f2c99e088fa03528603ea2c72a5,government,2020,congressionalresearch,Congressional Research Service,,1,heritagefoundation-a7651a62dc71e62390d27b114e914fed,think tank,2016,heritagefoundation,The Heritage Foundation,0
+committee_house-a618821b002f132f4b30506709322eeb,government,2020,committee_house,House Committees,,0,belfercenter-24e4d1f2dbb69830375696bba625b3cf,think tank,2010,belfercenter,Belfer Center,0
+seattlegov-f103a000247c5653c19375c7e90fdf33,government,2020,seattlegov,City of Seattle,,2,freedomandprosperity-4147e3390b3bfa605f2018ca15a12815,think tank,2019,freedomandprosperity,Center for Freedom and Prosperity,7
+gpogov-fc094dbc10ed7ee76d44fa4f19d07df8,government,2020,gpogov,Government Publishing Office,,64,climatesecurity-0fda093b91517b254e0343ca0961cf9b,think tank,2020,climatesecurity,Center for Climate & Security,85
+committee_house-58470af2e5b47eb04e3e5c877595bb65,government,2020,committee_house,House Committees,,0,taxfoundation-419b402d44c31b0ec80fb0162af96d8d,think tank,2017,taxfoundation,Tax Foundation,0
+gpogov-95da72e9c86e3693ab39a999f5589925,government,2020,gpogov,Government Publishing Office,,0,isisonline-77c8a1f833acef918bbbd886577ab1b4,think tank,2016,isisonline,Institute for Science and International Security,0
+committee_house-c2ff1df7f0e8a115ee5c681f49d5c0b8,government,2020,committee_house,House Committees,,22,csis-e86844c5b8942fdeeda180f089c17cc9,think tank,2018,csis,Center for Strategic and International Studies,3
+nygov-38a298b5ec2aef56ff686ec488183bb5,government,2020,nygov,New York State,,0,aarpus-c3dda8d0c0c8302a9bc3bfbc6bff9582,think tank,2015,aarpus,AARP,16
+chicagogov-209fe24a55edcbc7b7675031f21f409f,government,2020,chicagogov,City of Chicago,,91,pewresearch-f7ad4db0a1d4d297d3f27e0eb72f5539,think tank,2019,pewresearch,Pew Research,0
+committee_house-0cc87624df59aa700a0c5e3e05e1cf49,government,2020,committee_house,House Committees,,12,brookings-b56dbd6fb9d08c9ee2579dcd80c3fb33,think tank,2006,brookings,Brookings Institution,0
+committee_house-d0e5662babfffbc5e8e5715325337686,government,2020,committee_house,House Committees,,0,hooverinstitution-26fc906a9d5f37130dae8fad9b5e965a,think tank,2020,hooverinstitution,Hoover Institution,54
+whitehouse-8f3f555e622c4182d3c15773d4a1d57e,government,2020,whitehouse,Whitehouse.gov,,10,commonwealthfund-ad18a7f8825bcc23879e786ef06da531,think tank,2011,commonwealthfund,Commonwealth Fund,30
+committee_senate-5f12f272a70ab53c1ed09bb3729e937d,government,2020,committee_senate,Senate Committees,,99,nber-41b2f40ee18c162f5b75090db81eabdc,think tank,2014,nber,NBER,35
+seattlegov-2f97d825901c3719cd3130a069431415,government,2020,seattlegov,City of Seattle,,0,urbaninstitute-732e1ecdedc80bcae25dd6e9cbc6395b,think tank,2017,urbaninstitute,Urban Institute,0
+stateofnorthcarolina-99c1e6199df8eca0090b9ef4f0e5f4f6,government,2021,stateofnorthcarolina,State of North Carolina,,13,brookings-dea0ee0eea87388a3c01188dd7d11901,think tank,2020,brookings,Brookings Institution,0
+committee_house-9248d36e1eec996dfaf2a363d7ca3b6f,government,2021,committee_house,House Committees,,0,aclu-549090542afaafa2b734f41c8b3693db,think tank,2018,aclu,ACLU,0
+committee_house-92170716019c7269c7d04fa68a187346,government,2021,committee_house,House Committees,,51,pacificresearchinstitute-9e968249ae75493468caf170a7b857f1,think tank,2021,pacificresearchinstitute,Pacific Research Institute,0
+federalreserve-f9c493ac901958de7df5cf1c5d185313,government,2021,federalreserve,Federal Reserve,,0,carnegieendowment-82d3253a2abc842217d5c998ef8e6a58,think tank,2014,carnegieendowment,Carnegie Endowment for International Peace,0
+committee_house-a8299558cfee5c7c6b15d3e0b732111f,government,2021,committee_house,House Committees,,15,guttmacher-00389319205a1da2cf3b6ef63eccf344,think tank,2020,guttmacher,Guttmacher Institute,2
+california_state_agencies-9f8a1b8851f917064cf56b157f5304fb,government,2021,california_state_agencies,Californian State Agencies,,0,nber-2dc737ccfee632b856a7927a1556f84b,think tank,2014,nber,NBER,18
+nationalacademymedicine-b7a9e8cf8a5c50e810de681b7c971af8,government,2021,nationalacademymedicine,National Academy of Medicine,,6,brookings-5c35d5f37ffb7e21b994080eaf8a5267,think tank,2012,brookings,Brookings Institution,0
+committee_senate-9acec08b7eab2e2d284d0de717438f06,government,2021,committee_senate,Senate Committees,,2,milkeninstitute-96da844d12ba7ca7bab19a036c9d4171,think tank,2019,milkeninstitute,Milken Institute,2
+cityofdallas-a91cfac36a6c4aa67adf1e63a1c44e39,government,2021,cityofdallas,City of Dallas,,70,kff-e5111e4d59be88a716ead9f20e4e991f,think tank,2015,kff,Kaiser Family Foundation,0
+committee_house-68a99c1dce5993ebda2fce5f279e5ade,government,2021,committee_house,House Committees,,193,heritagefoundation-a80380083d620786efe432770a5344b5,think tank,2019,heritagefoundation,The Heritage Foundation,0
+committee_house-85d955465b35e27ab7f625f996bafb67,government,2021,committee_house,House Committees,,12,carnegieendowment-77ae02ebc1459521e64593cc066989de,think tank,2020,carnegieendowment,Carnegie Endowment for International Peace,0
+congressionalresearch-3e57ab0e286f13256a1b45c56cf5423a,government,2021,congressionalresearch,Congressional Research Service,,104,centeronbudgetandpolicypriorities-f450d94c2526e6e5fe1236a302005343,think tank,2018,centeronbudgetandpolicypriorities,Center on Budget and Policy Priorities,0
+committee_house-ebf54acbce75836c4fb57f4ea1e7b16a,government,2021,committee_house,House Committees,,0,aspeninstitute-413356d1478a9d90d05ffae5814f6c2c,think tank,2019,aspeninstitute,Aspen Institute,7
+committee_house-bf6a3c8d27915602527005479f94235a,government,2021,committee_house,House Committees,,0,csis-15148d2ca9abd72d25652d55941394eb,think tank,2008,csis,Center for Strategic and International Studies,0
